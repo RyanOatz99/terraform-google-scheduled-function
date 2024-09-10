@@ -1,2 +1,5 @@
 google-cloud-bigquery==1.14.0
 requests==2.21.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
